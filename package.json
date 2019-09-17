@@ -1,0 +1,28 @@
+{
+  "name": "workshop-class",
+  "version": "1.0.0",
+  "description": "Workshop Project UV",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [],
+  "author": "Ismael Marin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.40.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0"
+  }
+}
