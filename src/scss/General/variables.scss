@@ -1,0 +1,26 @@
+// colors
+$color-white: rgb(255, 255, 255);
+$color-black: rgb(18, 18, 18);
+$color-grey1: rgb(158, 158, 158);	
+$color-grey2: rgba(244, 244, 244, 0.646);	
+$color-grey3: rgba(244, 244, 244, 0.934);	
+$color-gold1: rgb(125,112,78);
+$color-gold2: rgb(140,126,87);
+$color-gold3: rgb(181,141,72);
+$color-orange: rgb(224,127,31);
+
+// fonts
+$font-main: 'Josefin Sans', sans-serif;
+$font-second: 'Heebo', sans-serif;
+
+// font sizes
+$font-size-h1: 60px;
+
+//
+@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
+  background: {
+      image: url($imgpath);
+      position: $position;
+      repeat: $repeat;
+  }
+}

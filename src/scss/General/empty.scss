@@ -1,0 +1,22 @@
+.empty{
+  height:200px;
+  background: lightgrey;
+  color: white;
+  font-size: $font-size-h1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+}
+
+.empty:nth-of-type(odd){
+  background: grey;
+}
+
+.empty-img{
+  
+}
+/*.empty:nth-of-type(1){
+  background-image: url('/src/images/icon.png');
+}*/
