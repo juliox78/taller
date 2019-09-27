@@ -1,0 +1,17 @@
+.Comment_main{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+
+    .Comment_text{
+        font-weight: bold;
+        width: 500px;
+
+        h3{
+            line-height: 35px;
+            font-size: 25px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.Navbar_main{
+background-color: red;
+display: flex;
+align-items: center;
+box-sizing: border-box;
+justify-content: space-between;
+padding: 0 8%;
+width: 100%;
+
+    .menu{
+        align-items: center;
+        display: flex;
+        
+        li{
+            color: black;
+            font-size: 16px;
+            padding: 10px 15px;
+    
+
+        &:hover {
+            color: #84724c;
+            cursor: pointer;
+        }
+        }
+    }
+}
